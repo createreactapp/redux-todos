@@ -9,3 +9,8 @@ export const addTodo = text => ({
 export const VisibilityFilters = {
   SHOW_ALL: 'SHOW_ALL'
 }
+
+export const toggleTodo = id => ({
+  type: 'TOGGLE_TODO',
+  id
+})
